@@ -2,7 +2,7 @@
 
 module.exports = {
   url: 'https://github.com/chastep/chastep.github.io',
-  pathPrefix: '/chastep',
+  pathPrefix: '/public',
   title: 'Big Brain Blog by Chase Stephens',
   subtitle: 'Pay It Forward',
   copyright: '© All rights reserved.',
