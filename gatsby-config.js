@@ -114,7 +114,6 @@ module.exports = {
             options: {
               maxWidth: 960,
               withWebp: true,
-              ignoreFileExtensions: [],
             }
           },
           {
@@ -194,9 +193,15 @@ module.exports = {
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
     {
-      resolve: 'gatsby-plugin-sass',
+      resolve: 'gatsby-plugin-postcss',
       options: {
         postCssPlugins: [...postCssPlugins],
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+        // postCssPlugins: [...postCssPlugins],
         cssLoaderOptions: {
           camelCase: false,
         }

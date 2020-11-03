@@ -7,16 +7,31 @@ slug: "the-great-gatsby-blog"
 category: "Blog"
 tags:
   - "development"
-  - "learning to write"
+  - "blog"
   - "documentation"
-description: "Ignore the hideously overused cliche. Just read the post, it's on how I built this stupid blog and what I learned (kinda)"
+description: "Ignore the hideously overused cliche. Just read the post, it's on how I built this blog and what I learned (kinda)"
 socialImage: "/media/image-2.jpg"
 ---
 
-Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.
+Blogs are ok. I've never been a big advocate for them, but I think it's important I start to catalog some thoughts. I built this blog using a few tools and articles I believe are efficient, robust, and fun to use/learn from. Every tool comes with some pros and cons of course, I'll try to highlight some easy wins (for myself and for the community that utilizes them) in the list below:
 
-![notebook and computer, such work](/media/image-2.jpg)
+![notebook and computer, much work](/media/image-2.jpg)
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. 
+## Tools:
 
-Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+### [Gatsby](https://www.gatsbyjs.com/):
+- Ripped right from the main page, "Gatsby is a React-based open source framework for creating websites and apps.". This a big win for me because I kinda already know React! Oh boy!
+- I was drawn to Gatsby because of its promise of "performance, scalability, and security". These points directly relate to 3 main points for myself: [server-side rendering](https://medium.com/@quinn.royston/server-side-rendering-213f66b27229), [extremely fast build times](https://www.gatsbyjs.com/cloud/), and [built-in plugin enhancements](https://www.gatsbyjs.com/plugins/). Seriously, there are a crazy amount of plugins. Big shout out to [Alexander Shelepenok](https://github.com/alxshelepenok) for the [gatsby starter](https://github.com/alxshelepenok/gatsby-starter-lumen) this whole blog is literally built from. Very fun community that I hope to contribute to one day.
+
+### [VSCode](https://code.visualstudio.com/)
+- Not much to say here besides that I've been using this IDE for about a year now and I really like it. The plugins are a very nice plus that highlight the community aspect of the application.
+
+## Articles
+
+- I'm just going to link them all directly because I learned a lot from each.
+- https://www.freecodecamp.org/news/build-a-developer-blog-from-scratch-with-gatsby-and-mdx/
+- https://medium.com/@arjunkava91/how-to-create-successful-blog-in-hour-b88e51970b33
+- https://medium.com/@quinn.royston/server-side-rendering-213f66b27229
+- more to come...
+
+That's it for now. Again, I'm not great at this blogging stuff, but the above is a quick distillation of resources that help me build this. Very cool, be safe and be well.
