@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Big Brain Blog by Chase Stephens]]></title><description><![CDATA[Pay It Forward]]></description><link>https://github.com/chastep/chastep.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 04 Nov 2020 20:32:51 GMT</lastBuildDate><item><title><![CDATA[The Great Gatsby Blog]]></title><description><![CDATA[Ignore the hideously overused cliche. Just read the post, it's on how I built this blog and what I learned (kinda)]]></description><link>https://github.com/chastep/chastep.github.io/posts/the-great-gatsby-blog</link><guid isPermaLink="false">https://github.com/chastep/chastep.github.io/posts/the-great-gatsby-blog</guid><pubDate>Tue, 27 Oct 2020 17:26:56 GMT</pubDate><content:encoded>&lt;p&gt;Blogs are ok. I’ve never been a big advocate for them, but I think it’s important I start to catalog some thoughts. I built this blog using a few tools and articles I believe are efficient, robust, and fun to use/learn from. Every tool comes with some pros and cons of course, I’ll try to highlight some easy wins (for myself and for the community that utilizes them) in the list below:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/0249a8579cfb4088acaf23fcac068444/d9c39/image-2.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAgMF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAaa8hyWBEP/EABoQAAIDAQEAAAAAAAAAAAAAAAECAAMSBBP/2gAIAQEAAQUCPOXmbM+hSK5BbqszP//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AVf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwFH/8QAHRAAAAYDAQAAAAAAAAAAAAAAAAECEBESISJxof/aAAgBAQAGPwKbkNIVwVWWWr63/8QAGhAAAwADAQAAAAAAAAAAAAAAAAERITFh8P/aAAgBAQABPyHduKW4HKoEp4zfE7OkG8yXCyU//9oADAMBAAIAAwAAABAAD//EABcRAQEBAQAAAAAAAAAAAAAAAAEAETH/2gAIAQMBAT8QE7av/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERMf/aAAgBAgEBPxB3CT//xAAcEAEAAgMBAQEAAAAAAAAAAAABABEhQVFxYaH/2gAIAQEAAT8Q1tFIaHmY6qk11VGkZj6wwX+QQjfXfeygHuMAHzkVauVyruf/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/0249a8579cfb4088acaf23fcac068444/8ac56/image-2.webp 240w,
+/static/0249a8579cfb4088acaf23fcac068444/d3be9/image-2.webp 480w,
+/static/0249a8579cfb4088acaf23fcac068444/e46b2/image-2.webp 960w,
+/static/0249a8579cfb4088acaf23fcac068444/f992d/image-2.webp 1440w,
+/static/0249a8579cfb4088acaf23fcac068444/62ed8/image-2.webp 1800w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/0249a8579cfb4088acaf23fcac068444/09b79/image-2.jpg 240w,
+/static/0249a8579cfb4088acaf23fcac068444/7cc5e/image-2.jpg 480w,
+/static/0249a8579cfb4088acaf23fcac068444/6a068/image-2.jpg 960w,
+/static/0249a8579cfb4088acaf23fcac068444/644c5/image-2.jpg 1440w,
+/static/0249a8579cfb4088acaf23fcac068444/d9c39/image-2.jpg 1800w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/0249a8579cfb4088acaf23fcac068444/6a068/image-2.jpg&quot;
+          alt=&quot;notebook and computer, much work&quot;
+          title=&quot;notebook and computer, much work&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;tools&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#tools&quot; aria-label=&quot;tools permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tools:&lt;/h2&gt;
+&lt;h3 id=&quot;gatsby&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gatsby&quot; aria-label=&quot;gatsby permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;https://www.gatsbyjs.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Gatsby&lt;/a&gt;:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ripped right from the main page, “Gatsby is a React-based open source framework for creating websites and apps.”. This a big win for me because I kinda already know React! Oh boy!&lt;/li&gt;
+&lt;li&gt;I was drawn to Gatsby because of its promise of “performance, scalability, and security”. These points directly relate to 3 main points for myself: &lt;a href=&quot;https://medium.com/@quinn.royston/server-side-rendering-213f66b27229&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;server-side rendering&lt;/a&gt;, &lt;a href=&quot;https://www.gatsbyjs.com/cloud/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;extremely fast build times&lt;/a&gt;, and &lt;a href=&quot;https://www.gatsbyjs.com/plugins/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;built-in plugin enhancements&lt;/a&gt;. Seriously, there are a crazy amount of plugins. Big shout out to &lt;a href=&quot;https://github.com/alxshelepenok&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Alexander Shelepenok&lt;/a&gt; for the &lt;a href=&quot;https://github.com/alxshelepenok/gatsby-starter-lumen&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;gatsby starter&lt;/a&gt; this whole blog is literally built from. Very fun community that I hope to contribute to one day.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;vscode&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#vscode&quot; aria-label=&quot;vscode permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;https://code.visualstudio.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;VSCode&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Not much to say here besides that I’ve been using this IDE for about a year now and I really like it. The plugins are a very nice plus that highlight the community aspect of the application.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;articles&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#articles&quot; aria-label=&quot;articles permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Articles&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;I’m just going to link them all directly because I learned a lot from each.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.freecodecamp.org/news/build-a-developer-blog-from-scratch-with-gatsby-and-mdx/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.freecodecamp.org/news/build-a-developer-blog-from-scratch-with-gatsby-and-mdx/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@arjunkava91/how-to-create-successful-blog-in-hour-b88e51970b33&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://medium.com/@arjunkava91/how-to-create-successful-blog-in-hour-b88e51970b33&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@quinn.royston/server-side-rendering-213f66b27229&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://medium.com/@quinn.royston/server-side-rendering-213f66b27229&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;more to come…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That’s it for now. Again, I’m not great at this blogging stuff, but the above is a quick distillation of resources that help me build this. Very cool, be safe and be well.&lt;/p&gt;</content:encoded></item></channel></rss>
