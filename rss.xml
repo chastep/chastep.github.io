@@ -1,4 +1,112 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Big Brain Blog by Chase Stephens]]></title><description><![CDATA[Pay It Forward]]></description><link>https://github.com/chastep/chastep.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 04 Nov 2020 22:06:22 GMT</lastBuildDate><item><title><![CDATA[The Great Gatsby Blog]]></title><description><![CDATA[Ignore the hideously overused cliche. Just read the post, it's on how I built this blog and what I learned (kinda)]]></description><link>https://github.com/chastep/chastep.github.io/posts/the-great-gatsby-blog</link><guid isPermaLink="false">https://github.com/chastep/chastep.github.io/posts/the-great-gatsby-blog</guid><pubDate>Tue, 27 Oct 2020 17:26:56 GMT</pubDate><content:encoded>&lt;p&gt;Blogs are ok. I’ve never been a big advocate for them, but I think it’s important I start to catalog some thoughts. I built this blog using a few tools and articles I believe are efficient, robust, and fun to use/learn from. Every tool comes with some pros and cons of course, I’ll try to highlight some easy wins (for myself and for the community that utilizes them) in the list below:&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Big Brain Blog by Chase Stephens]]></title><description><![CDATA[Pay It Forward]]></description><link>https://github.com/chastep/chastep.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 30 Nov 2020 23:45:18 GMT</lastBuildDate><item><title><![CDATA[AWS Developer Associate Certificate Exam - Wut]]></title><description><![CDATA[Here are some useful resources I've been using to prep for the AWS Developer Associate Certificate Exam]]></description><link>https://github.com/chastep/chastep.github.io/posts/aws-cert-exam</link><guid isPermaLink="false">https://github.com/chastep/chastep.github.io/posts/aws-cert-exam</guid><pubDate>Mon, 23 Nov 2020 14:09:50 GMT</pubDate><content:encoded>&lt;p&gt;At work we use a lot of AWS. If you don’t know what AWS is quick google search should open your eyes to the deep, deep depths of AWS resources. Most of the web nowadays is built with Amazon tech, it’s wild to look into (maybe I’ll do that in the future or right now…) Related, just now articles I found that are super interesting:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://w3techs.com/technologies/details/ho-amazon&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;W3Techs, oh boy!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.theverge.com/2018/7/28/17622792/plugin-use-the-internet-without-the-amazon-cloud#:~:text=Share%20this%20story&amp;#x26;text=Amazon%20servers%20make%20up%20so,visible%20connection%20to%20the%20company.&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Gotta 💕 The Verge&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4a5dedfa7e7f09f5a776f4355baf4db9/12609/aws-dot.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgP/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABlvzdw6cSv//EABkQAAMBAQEAAAAAAAAAAAAAAAABAgMRQv/aAAgBAQABBQLFpGdJlVMkHeHn/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAEREv/aAAgBAwEBPwGmpf/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPwHUf//EABwQAAICAgMAAAAAAAAAAAAAAAABAiEREjFBcf/aAAgBAQAGPwJtnBUds9sZRHw//8QAFxABAQEBAAAAAAAAAAAAAAAAAREAIf/aAAgBAQABPyHEQGjmQIQtN2VhcqYw/9oADAMBAAIAAwAAABDbH//EABcRAAMBAAAAAAAAAAAAAAAAAAABEWH/2gAIAQMBAT8QdKm7P//EABcRAQEBAQAAAAAAAAAAAAAAAAERADH/2gAIAQIBAT8QAMmBOb//xAAbEAEAAwEAAwAAAAAAAAAAAAABABEhQTGBof/aAAgBAQABPxCwqBl1fqYwOqhKGLRavMrMhAgTPMaFFdCbu4D6z//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/4a5dedfa7e7f09f5a776f4355baf4db9/8ac56/aws-dot.webp 240w,
+/static/4a5dedfa7e7f09f5a776f4355baf4db9/d3be9/aws-dot.webp 480w,
+/static/4a5dedfa7e7f09f5a776f4355baf4db9/e46b2/aws-dot.webp 960w,
+/static/4a5dedfa7e7f09f5a776f4355baf4db9/f992d/aws-dot.webp 1440w,
+/static/4a5dedfa7e7f09f5a776f4355baf4db9/882b9/aws-dot.webp 1920w,
+/static/4a5dedfa7e7f09f5a776f4355baf4db9/e72c3/aws-dot.webp 3000w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/4a5dedfa7e7f09f5a776f4355baf4db9/09b79/aws-dot.jpg 240w,
+/static/4a5dedfa7e7f09f5a776f4355baf4db9/7cc5e/aws-dot.jpg 480w,
+/static/4a5dedfa7e7f09f5a776f4355baf4db9/6a068/aws-dot.jpg 960w,
+/static/4a5dedfa7e7f09f5a776f4355baf4db9/644c5/aws-dot.jpg 1440w,
+/static/4a5dedfa7e7f09f5a776f4355baf4db9/0f98f/aws-dot.jpg 1920w,
+/static/4a5dedfa7e7f09f5a776f4355baf4db9/12609/aws-dot.jpg 3000w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/4a5dedfa7e7f09f5a776f4355baf4db9/6a068/aws-dot.jpg&quot;
+          alt=&quot;an amazon dot&quot;
+          title=&quot;an amazon dot&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Anywho, I thought it would be smart to try and get the &lt;a href=&quot;https://aws.amazon.com/certification/certified-developer-associate/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;AWS Developer Certificate&lt;/a&gt;. I can add it to my resume, have a 💫 fancy 💫 new cert, and get some kudos at work. The studying process has been rewarding, yet challenging. Below are some useful resources I’ve used to prepare myself, Rocky 4 style!&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 850px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e879900f6f7eee7bce5dc5e02fda0932/faddd/rocky-4.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 70.41666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAIBAwQF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAHlXtJrOON//8QAGRAAAwADAAAAAAAAAAAAAAAAAQIDABIT/9oACAEBAAEFAlkzFZlKUmQ+537l87MM/8QAFREBAQAAAAAAAAAAAAAAAAAAAQD/2gAIAQMBAT8BCQv/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPwFn/8QAHRABAAEDBQAAAAAAAAAAAAAAAQACETEhMkFRcf/aAAgBAQAGPwJCl0hfa8xtdJXWdzEwPs//xAAaEAADAAMBAAAAAAAAAAAAAAAAAREhMUFx/9oACAEBAAE/IXOFSdpHzSNsensVQSeQ+KO1vpSvQ2XsD//aAAwDAQACAAMAAAAQqA//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QJSGpt//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAgEBPxBOMLl//8QAHRABAQACAwADAAAAAAAAAAAAAREAMSFRYUFx0f/aAAgBAQABPxB6AjBdkP3KlDZ6dPR4mFZQ0O179zUtYlbvjrCrHEEcCxUtFevj6z//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/e879900f6f7eee7bce5dc5e02fda0932/8ac56/rocky-4.webp 240w,
+/static/e879900f6f7eee7bce5dc5e02fda0932/d3be9/rocky-4.webp 480w,
+/static/e879900f6f7eee7bce5dc5e02fda0932/10237/rocky-4.webp 850w&quot;
+          sizes=&quot;(max-width: 850px) 100vw, 850px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/e879900f6f7eee7bce5dc5e02fda0932/09b79/rocky-4.jpg 240w,
+/static/e879900f6f7eee7bce5dc5e02fda0932/7cc5e/rocky-4.jpg 480w,
+/static/e879900f6f7eee7bce5dc5e02fda0932/faddd/rocky-4.jpg 850w&quot;
+          sizes=&quot;(max-width: 850px) 100vw, 850px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/e879900f6f7eee7bce5dc5e02fda0932/faddd/rocky-4.jpg&quot;
+          alt=&quot;rocky vs drago&quot;
+          title=&quot;rocky vs drago&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;resources&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#resources&quot; aria-label=&quot;resources permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Resources:&lt;/h2&gt;
+&lt;h3 id=&quot;quizlet&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#quizlet&quot; aria-label=&quot;quizlet permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;https://quizlet.com/549134015/aws-certified-developer-associate-2020-flash-cards/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Quizlet&lt;/a&gt;:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;I made some of these, but not all. Quizlet is great because you can search, fork, and then customize/add notecards at will to your personal account. Plus you can then share with your friends. My gift to you friends :D&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;acloudgurus-dev-course&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#acloudgurus-dev-course&quot; aria-label=&quot;acloudgurus dev course permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;https://www.udemy.com/course/aws-certified-developer-associate/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;ACloudGuru’s Dev Course&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;I found this through Udemy after a work colleague recommended it. Very useful for learning/shoring up the high-level basics concerning exam specific resources. They cover the “popular” resources (ie the ones a lot of people use because they are super useful, reliable, and very stable)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;whizlab-practice-tests&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#whizlab-practice-tests&quot; aria-label=&quot;whizlab practice tests permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;https://www.whizlabs.com/aws-developer-associate/practice-tests/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Whizlab Practice tests&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A friend (shoutout Liz!) recommended these practice tests. They provide a glimpse into what the actual exam is like. I like these  a lot because they give you a feel for questions will be like for the actual exam. Given they provide older exams that are only a few years old I trust that they are good guide for the look and feel come exam day&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That’s all friends! Hope these resources serve you as well as they have served me.&lt;/p&gt;
+&lt;p&gt;Blessings 🙏 Good Luck&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Great Gatsby Blog]]></title><description><![CDATA[Ignore the hideously overused cliche. Just read the post, it's on how I built this blog and what I learned (kinda)]]></description><link>https://github.com/chastep/chastep.github.io/posts/the-great-gatsby-blog</link><guid isPermaLink="false">https://github.com/chastep/chastep.github.io/posts/the-great-gatsby-blog</guid><pubDate>Tue, 27 Oct 2020 17:26:56 GMT</pubDate><content:encoded>&lt;p&gt;Blogs are ok. I’ve never been a big advocate for them, but I think it’s important I start to catalog some thoughts. I built this blog using a few tools and articles I believe are efficient, robust, and fun to use/learn from. Every tool comes with some pros and cons of course, I’ll try to highlight some easy wins (for myself and for the community that utilizes them) in the list below:&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
@@ -12,7 +120,7 @@
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAgMF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAaa8hyWBEP/EABoQAAIDAQEAAAAAAAAAAAAAAAECAAMSBBP/2gAIAQEAAQUCPOXmbM+hSK5BbqszP//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AVf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwFH/8QAHRAAAAYDAQAAAAAAAAAAAAAAAAECEBESISJxof/aAAgBAQAGPwKbkNIVwVWWWr63/8QAGhAAAwADAQAAAAAAAAAAAAAAAAERITFh8P/aAAgBAQABPyHduKW4HKoEp4zfE7OkG8yXCyU//9oADAMBAAIAAwAAABAAD//EABcRAQEBAQAAAAAAAAAAAAAAAAEAETH/2gAIAQMBAT8QE7av/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERMf/aAAgBAgEBPxB3CT//xAAcEAEAAgMBAQEAAAAAAAAAAAABABEhQVFxYaH/2gAIAQEAAT8Q1tFIaHmY6qk11VGkZj6wwX+QQjfXfeygHuMAHzkVauVyruf/2Q==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAgMF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAaa8hyWBEP/EABoQAAIDAQEAAAAAAAAAAAAAAAECAAMSBBP/2gAIAQEAAQUCbnLzNmfQpFcgt1WZn//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AVf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwFH/8QAHRAAAAUFAAAAAAAAAAAAAAAAAAIQERIBIjFxof/aAAgBAQAGPwJ50FrG0Inykep//8QAGxAAAgMAAwAAAAAAAAAAAAAAAREAITFRYZH/2gAIAQEAAT8h4ehN1DRUAVs9mcK7NJC1EDoLjn//2gAMAwEAAgADAAAAEGMP/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARMf/aAAgBAwEBPxATtq//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREx/9oACAECAQE/EHcIP//EABwQAQACAgMBAAAAAAAAAAAAAAERIQBRQWFxof/aAAgBAQABPxCzPBCGB5ePLkmxUOEXj7iwT8wQkne/d5IBtUAdaxUqyravOf/Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
         &lt;source
