@@ -6,9 +6,9 @@ draft: false
 slug: "the-great-gatsby-blog"
 category: "Blog"
 tags:
-  - "development"
-  - "blog"
   - "documentation"
+  - "blog"
+  - "development"
 description: "Ignore the hideously overused cliche. Just read the post, it's on how I built this blog and what I learned (kinda)"
 socialImage: "/media/image-2.jpg"
 ---
