@@ -3,8 +3,8 @@
 module.exports = {
   url: 'https://github.com/chastep/chastep.github.io',
   pathPrefix: '/',
-  title: 'Big Brain Blog by Chase Stephens',
-  subtitle: 'Pay It Forward',
+  title: 'Thought Dungeon',
+  subtitle: 'Where Ideas Go To Die',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -25,9 +25,9 @@ module.exports = {
     }
   ],
   author: {
-    name: 'Chase Stephens',
+    name: 'Thought Dungeon',
     photo: '/photo.jpg',
-    bio: 'Pay It Forward',
+    bio: 'Where Ideas Go To Die',
     contacts: {
       email: '',
       facebook: '#',
