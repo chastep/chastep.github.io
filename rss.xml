@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Thought Dungeon]]></title><description><![CDATA[Where Ideas Go To Die]]></description><link>https://github.com/chastep/chastep.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 14 Dec 2020 22:50:38 GMT</lastBuildDate><item><title><![CDATA[AWS Developer Associate Certificate Exam - Wut]]></title><description><![CDATA[Here are some useful resources I've been using to prep for the AWS Developer Associate Certificate Exam]]></description><link>https://github.com/chastep/chastep.github.io/posts/aws-cert-exam</link><guid isPermaLink="false">https://github.com/chastep/chastep.github.io/posts/aws-cert-exam</guid><pubDate>Mon, 23 Nov 2020 14:09:50 GMT</pubDate><content:encoded>&lt;p&gt;At work we use a lot of AWS. If you don’t know what AWS is a quick google search should open your eyes to the deep, deep depths of AWS resources. Most of the web nowadays is built with AWS, it’s wild to learn about (maybe I’ll do that in the future or right now…). Just now I found some related articles that are super interesting:&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Thought Dungeon]]></title><description><![CDATA[Where Ideas Go To Die]]></description><link>https://github.com/chastep/chastep.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 15 Dec 2020 13:56:43 GMT</lastBuildDate><item><title><![CDATA[AWS Accomplished 🇺🇸]]></title><description><![CDATA[I did a thing, let's check it out]]></description><link>https://github.com/chastep/chastep.github.io/posts/aws-accomplished</link><guid isPermaLink="false">https://github.com/chastep/chastep.github.io/posts/aws-accomplished</guid><pubDate>Tue, 15 Dec 2020 08:42:59 GMT</pubDate><content:encoded>&lt;p&gt;Wha…? What’s this?!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youracclaim.com/badges/5cbd08ba-053a-4227-b4f2-0bc92becd24d/public_url&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 300px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEY0lEQVQ4y31VDUxbVRQ+UA04zZY4sy2DaOKy4PAnZpgFt+gkmWYzbkRJptNEtmXKGLjhIsz9z4E6FrORiXOKkOwPY6dgZJoJDERwdMNsIJRW6A/lte+nry0FWqCv7T3ee1uY2dCbd+57effc757vnHu/C0/sccO0zdsmQUqBDMuKFR1AF6R9oAAstaZmfey58HypWgXJ5ocWF8oAoIeluxVd2m6Fz2FzH9+j8Df9oB0UAGwQ4OGdciIiJsAmJ/3XnLTkfXnvwUtjozYljCaXhiXfjrpTC107AUoSIccJbaapxNT35ER40wUvHvPEABfmS7Boh5yw9esRHawZBvdYBJI3u3Lyqv3mjr81jLdw3LC5P4K5Z0a6Kci6r1oCAKuG4NWTXt2CfClhwXYJIClXTLhvswjZJ7wA64Tl6z/zXtFfn8Qpjc2PsC4aJYjBiUmMInu84Qm6zrn2IL50zFMHWY5lL5R5IDlX5AawXoD5edKiZw+rlRVXxons54FEOg03IqdOV2NVzXnyQ92PpLq2gbhvfkfwYjqi7acIW8jpCWF5w7iWccBdPv9d6UEaEA3quAdWHlErW4xTHAiRMERyzfAn/trUSpquthGD4Qa2dXajZGwl2JFHiOt3xp/GHeW+l29N4tP73IdXHFIBdp31A6X5pcvHFkUtwvhRJ6/XR1TVg8OCE50uEdvbO9AhSGixDeOQU2FOhDrzORY5jJR2ac4pH8D26hF4+bjntFXhVMNRQjii4HShsd+MNrsDHcMCWixWHBgYxD6jCSVJ4pWiizPfcK+g4XOl6tENrA75NTFAu/s2YBwTp993NvY/Go2yanFAo1NDuk+PZp+cBZC6zI4yS4uzmR3QFgcMUx6GrptoMg+gJCvopnn8q8+EFqsdRUmmptAUOPnYNOW+/wMMhTTyW/s1/L7+MjZebcPm1nas1ddjS9sfeK72Ejb80ohnL+rxVk8fZ38X4J1FYZQ1TeN5CofDsWNC3yxn/tExDASC/DtGGe8uSnzbnJFG+LYJTW+buP1X4+PhCHfRWDCryzxlfNus+cQDmYfUEz/TzTl9bqkbYdFYbEOE5owIThEVRcWBQRuxOwTCj2E8OjZBf30Cn9rr3rd8PxOalUNUDMS5T37oPlJaPxaM5zI66vdH+kyD2Gs0MyO0EKSntx+7e80YDIzzE2IWNTygHx15rFgpvn+LOAcy7BTwDRc3eh4BMoeWUO2r/aY1gMHQjMpE8TZ/lpeIL0jwi6YA0iNbBem2lPQSqpsbnTGshTti8rW23KODZ+xANY8OurI2VfoMsTSQGflislPXNYGvVXhbqX5mvv45zVmaFVaXqvdQ+QIuX0wUV32kwr1vi5BSKCdWNgYSIVsACgDU6Z2i835Xj0PDLlsI82v81rnbpLfYGKwdhqILft3iAjlhzhYRVhxU44pdosxcAQ9sFSG30gePFrErAJis0d44j6pIRcZ+96cAnclJVDsZ4CO7qFK/IjA28O9r5B9UwHTmWOqsSQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/ce64318418183d5afaf0065504509971/8ac56/aws-certified-developer-associate.webp 240w,
+/static/ce64318418183d5afaf0065504509971/c85cb/aws-certified-developer-associate.webp 300w&quot;
+          sizes=&quot;(max-width: 300px) 100vw, 300px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/ce64318418183d5afaf0065504509971/8ff5a/aws-certified-developer-associate.png 240w,
+/static/ce64318418183d5afaf0065504509971/5a46d/aws-certified-developer-associate.png 300w&quot;
+          sizes=&quot;(max-width: 300px) 100vw, 300px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/ce64318418183d5afaf0065504509971/5a46d/aws-certified-developer-associate.png&quot;
+          alt=&quot;AWS Cert&quot;
+          title=&quot;AWS Cert&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+    &lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;My god…it’s beautiful! So shiny.&lt;/p&gt;
+&lt;p&gt;I’m happy I passed, was a somewhat long process with some rescheduling and nail-biting, but overall a good learning experience. The certificate is a great addition to my professional resume and it’ll aide me moving forward for any personal/hobby project as well. If I ever get a physical badge I will wear it with pride, but this will do for now 😎&lt;/p&gt;
+&lt;p&gt;I appreciate everyone who helped me study, they are the real MVPs.&lt;/p&gt;
+&lt;p&gt;Onto the next thing, peace out y’all.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[AWS Developer Associate Certificate Exam - Wut]]></title><description><![CDATA[Here are some useful resources I've been using to prep for the AWS Developer Associate Certificate Exam]]></description><link>https://github.com/chastep/chastep.github.io/posts/aws-cert-exam</link><guid isPermaLink="false">https://github.com/chastep/chastep.github.io/posts/aws-cert-exam</guid><pubDate>Mon, 23 Nov 2020 14:09:50 GMT</pubDate><content:encoded>&lt;p&gt;At work we use a lot of AWS. If you don’t know what AWS is a quick google search should open your eyes to the deep, deep depths of AWS resources. Most of the web nowadays is built with AWS, it’s wild to learn about (maybe I’ll do that in the future or right now…). Just now I found some related articles that are super interesting:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://w3techs.com/technologies/details/ho-amazon&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;W3Techs, oh boy!&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.theverge.com/2018/7/28/17622792/plugin-use-the-internet-without-the-amazon-cloud#:~:text=Share%20this%20story&amp;#x26;text=Amazon%20servers%20make%20up%20so,visible%20connection%20to%20the%20company.&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Gotta 💕 The Verge&lt;/a&gt;&lt;/li&gt;
