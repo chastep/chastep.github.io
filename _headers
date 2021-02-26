@@ -21,9 +21,9 @@
   Cache-Control: public, max-age=31536000, immutable
 /component---src-templates-categories-list-template-js-eadb914010875380852b.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-templates-page-template-js-d55f0b2b3ec71ea8a907.js
-  Cache-Control: public, max-age=31536000, immutable
 /component---src-templates-post-template-js-ceb329960a1247666f90.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-templates-page-template-js-d55f0b2b3ec71ea8a907.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-templates-tag-template-js-e88e12d00925fd465122.js
   Cache-Control: public, max-age=31536000, immutable
@@ -87,6 +87,39 @@
   Link: </component---src-templates-categories-list-template-js-eadb914010875380852b.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/categories/page-data.json>; rel=preload; as=fetch; crossorigin
+/posts/the-great-gatsby-blog
+  Link: </webpack-runtime-b4f5a59045692cb44c7a.js>; rel=preload; as=script
+  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
+  Link: </framework-fc1db31f678bd7aa66d8.js>; rel=preload; as=script
+  Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
+  Link: </app-9b4d8312b3430b7299a5.js>; rel=preload; as=script
+  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
+  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-b59ec0737f593bef45a1.js>; rel=preload; as=script
+  Link: </component---src-templates-post-template-js-ceb329960a1247666f90.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/posts/the-great-gatsby-blog/page-data.json>; rel=preload; as=fetch; crossorigin
+/posts/aws-accomplished
+  Link: </webpack-runtime-b4f5a59045692cb44c7a.js>; rel=preload; as=script
+  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
+  Link: </framework-fc1db31f678bd7aa66d8.js>; rel=preload; as=script
+  Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
+  Link: </app-9b4d8312b3430b7299a5.js>; rel=preload; as=script
+  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
+  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-b59ec0737f593bef45a1.js>; rel=preload; as=script
+  Link: </component---src-templates-post-template-js-ceb329960a1247666f90.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/posts/aws-accomplished/page-data.json>; rel=preload; as=fetch; crossorigin
+/posts/aws-cert-exam
+  Link: </webpack-runtime-b4f5a59045692cb44c7a.js>; rel=preload; as=script
+  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
+  Link: </framework-fc1db31f678bd7aa66d8.js>; rel=preload; as=script
+  Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
+  Link: </app-9b4d8312b3430b7299a5.js>; rel=preload; as=script
+  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
+  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-b59ec0737f593bef45a1.js>; rel=preload; as=script
+  Link: </component---src-templates-post-template-js-ceb329960a1247666f90.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/posts/aws-cert-exam/page-data.json>; rel=preload; as=fetch; crossorigin
 /pages/about/
   Link: </webpack-runtime-b4f5a59045692cb44c7a.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
@@ -109,39 +142,6 @@
   Link: </component---src-templates-page-template-js-d55f0b2b3ec71ea8a907.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/pages/contacts/page-data.json>; rel=preload; as=fetch; crossorigin
-/posts/aws-accomplished
-  Link: </webpack-runtime-b4f5a59045692cb44c7a.js>; rel=preload; as=script
-  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
-  Link: </framework-fc1db31f678bd7aa66d8.js>; rel=preload; as=script
-  Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
-  Link: </app-9b4d8312b3430b7299a5.js>; rel=preload; as=script
-  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
-  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-b59ec0737f593bef45a1.js>; rel=preload; as=script
-  Link: </component---src-templates-post-template-js-ceb329960a1247666f90.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/posts/aws-accomplished/page-data.json>; rel=preload; as=fetch; crossorigin
-/posts/the-great-gatsby-blog
-  Link: </webpack-runtime-b4f5a59045692cb44c7a.js>; rel=preload; as=script
-  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
-  Link: </framework-fc1db31f678bd7aa66d8.js>; rel=preload; as=script
-  Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
-  Link: </app-9b4d8312b3430b7299a5.js>; rel=preload; as=script
-  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
-  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-b59ec0737f593bef45a1.js>; rel=preload; as=script
-  Link: </component---src-templates-post-template-js-ceb329960a1247666f90.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/posts/the-great-gatsby-blog/page-data.json>; rel=preload; as=fetch; crossorigin
-/posts/aws-cert-exam
-  Link: </webpack-runtime-b4f5a59045692cb44c7a.js>; rel=preload; as=script
-  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
-  Link: </framework-fc1db31f678bd7aa66d8.js>; rel=preload; as=script
-  Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
-  Link: </app-9b4d8312b3430b7299a5.js>; rel=preload; as=script
-  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
-  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-b59ec0737f593bef45a1.js>; rel=preload; as=script
-  Link: </component---src-templates-post-template-js-ceb329960a1247666f90.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/posts/aws-cert-exam/page-data.json>; rel=preload; as=fetch; crossorigin
 /tag/aws
   Link: </webpack-runtime-b4f5a59045692cb44c7a.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
