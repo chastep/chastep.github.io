@@ -3,6 +3,9 @@ name: Deployment
 on:
   release:
     types: [published, edited]
+  push:
+    tags:
+      - '*'
 
 jobs:
   release:
