@@ -21,7 +21,8 @@
     "clean": "rimraf .cache public",
     "build": "bun run clean && gatsby build",
     "start": "bun run clean && gatsby develop",
-    "version": "bun ./internal/scripts/up-version.mjs"
+    "version": "bun ./internal/scripts/up-version.mjs",
+    "deploy": "bun run clean && gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "@alxshelepenok/diesel": "1.0.1365",
@@ -70,6 +71,7 @@
     "@types/sass": "^1.45.0",
     "autoprefixer": "^10.4.21",
     "conventional-changelog-conventionalcommits": "8.0.0",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.49",
     "postcss-scss": "^4.0.9",
     "react-test-renderer": "^18.3.1",
