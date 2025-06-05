@@ -2,6 +2,12 @@
 
 This is just my personal blog. I host it through [github pages]() and [gatsby](). I used [this amazing gatsby starter](https://github.com/alxshelepenok/lumen). To get the ball rolling. Big shout out to [Alexander Shelepenok](https://github.com/alxshelepenok), thank you very much.
 
+## Manual Deploy
+
+- use github pages command: `bun run deploy`
+
+#################################3
+
 # lumen
 
 A constantly evolving and thoughtful architecture for creating static blogs.
