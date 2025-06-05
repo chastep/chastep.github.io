@@ -1,12 +1,15 @@
 name: Deployment
 
 on:
-  release:
-    types: [published]
+  workflow_run:
+    workflows: ["Release"] # Name of your release workflow
+    types:
+      - completed
 
 jobs:
-  release:
-    name: Release
+  deploy:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    name: Deployment
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
