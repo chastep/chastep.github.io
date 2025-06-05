@@ -2,10 +2,7 @@ name: Deployment
 
 on:
   release:
-    types: [published, edited]
-  push:
-    tags:
-      - '*'
+    types: [published]
 
 jobs:
   release:
