@@ -208,7 +208,7 @@ declare module 'astro:content' {
 } & { render(): Render[".md"] };
 "2026-05-11---welcome-to-the-new-setup/index.md": {
 	id: "2026-05-11---welcome-to-the-new-setup/index.md";
-  slug: "welcome-to-the-new-setup";
+  slug: "2026-05-11---welcome-to-the-new-setup";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
