@@ -1,0 +1,125 @@
+<!DOCTYPE html><html lang="en" data-astro-cid-37fxchfa> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Welcome to the New Setup | Blog by Chase Stephens</title><meta name="description" content="Complete migration from Gatsby to Astro - a fresh, faster, lighter blog platform"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:title" content="Welcome to the New Setup"><meta property="og:description" content="Complete migration from Gatsby to Astro - a fresh, faster, lighter blog platform"><meta property="og:url" content="https://thethoughtdungeon.com/"><!-- Theme script (must be inline to prevent flash) --><script>
+      const isDark = localStorage.getItem('theme') === 'dark' ||
+        (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      if (isDark) {
+        document.documentElement.classList.add('dark');
+      }
+    </script><style>.post[data-astro-cid-gysqo7gh]{max-width:800px}.post__header[data-astro-cid-gysqo7gh]{margin-bottom:30px}.post__title[data-astro-cid-gysqo7gh]{margin:0 0 12px;font-size:2rem}.post__meta[data-astro-cid-gysqo7gh]{margin:0;font-size:.9rem;color:var(--color-text-secondary)}.post__content[data-astro-cid-gysqo7gh]{margin:30px 0;line-height:1.8}.post__content h2{margin-top:2em;margin-bottom:1em;font-size:1.5rem}.post__content h3{margin-top:1.5em;margin-bottom:.8em;font-size:1.2rem}.post__content p{margin-bottom:1em}.post__content code{background:var(--color-background-secondary);padding:2px 6px;border-radius:3px;font-size:.9em}.post__content pre{background:var(--color-background-secondary);padding:16px;border-radius:8px;overflow-x:auto}.post__content pre code{background:none;padding:0;border-radius:0}.post__footer[data-astro-cid-gysqo7gh]{margin-top:30px;padding-top:20px;border-top:1px solid var(--color-background)}.post__tags[data-astro-cid-gysqo7gh]{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:12px}.post__tags[data-astro-cid-gysqo7gh] a[data-astro-cid-gysqo7gh]{color:var(--color-primary);text-decoration:none}.post__tags[data-astro-cid-gysqo7gh] a[data-astro-cid-gysqo7gh]:hover{text-decoration:underline}
+.icon[data-astro-cid-patnjmll]{display:inline-flex;width:1em;height:1em}.icon svg{width:100%;height:100%}.theme-switcher[data-astro-cid-dz5h74bc]{display:flex;align-items:center;justify-content:center;width:32px;height:32px;padding:0;border:none;background:var(--color-background);border-radius:4px;cursor:pointer;color:currentColor;transition:background-color .2s}.theme-switcher[data-astro-cid-dz5h74bc]:hover{background-color:var(--color-background);opacity:.8}.sun[data-astro-cid-dz5h74bc],.moon[data-astro-cid-dz5h74bc]{width:18px;height:18px;position:absolute}.sun[data-astro-cid-dz5h74bc]{opacity:1;rotate:0deg;transition:rotate .3s,opacity .3s}.moon[data-astro-cid-dz5h74bc]{opacity:0;rotate:-180deg;transition:rotate .3s,opacity .3s}.dark .sun[data-astro-cid-dz5h74bc]{opacity:0;rotate:180deg}.dark .moon[data-astro-cid-dz5h74bc]{opacity:1;rotate:0deg}.sidebar[data-astro-cid-ssfzsv2f]{position:sticky;top:30px;height:fit-content;padding:20px;background:var(--color-background-secondary);border-radius:8px}.sidebar__inner[data-astro-cid-ssfzsv2f]{display:flex;flex-direction:column;gap:20px}.sidebar__author[data-astro-cid-ssfzsv2f]{text-align:center}.sidebar__author-photo[data-astro-cid-ssfzsv2f]{width:100px;height:100px;border-radius:50%;object-fit:cover;margin-bottom:15px}.sidebar__author-title[data-astro-cid-ssfzsv2f]{margin:0;font-size:1.5rem}.sidebar__author-subtitle[data-astro-cid-ssfzsv2f]{margin:8px 0 0;font-size:.9rem;color:var(--color-text-secondary)}.sidebar__nav-list[data-astro-cid-ssfzsv2f]{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}.sidebar__nav-item[data-astro-cid-ssfzsv2f] a[data-astro-cid-ssfzsv2f]{color:inherit;text-decoration:none;padding:8px 12px;border-radius:4px;transition:background-color .2s}.sidebar__nav-item[data-astro-cid-ssfzsv2f] a[data-astro-cid-ssfzsv2f]:hover{background-color:var(--color-background)}.sidebar__contacts[data-astro-cid-ssfzsv2f]{display:flex;justify-content:center;gap:12px}.sidebar__contact-link[data-astro-cid-ssfzsv2f]{display:flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:4px;color:inherit;text-decoration:none;transition:background-color .2s}.sidebar__contact-link[data-astro-cid-ssfzsv2f]:hover{background-color:var(--color-background)}.sidebar__copyright[data-astro-cid-ssfzsv2f]{font-size:.85rem;color:var(--color-text-secondary);text-align:center}.sidebar__copyright[data-astro-cid-ssfzsv2f] p[data-astro-cid-ssfzsv2f]{margin:0}:root{--color-primary: hsl(31, 92%, 62%);--color-background: hsl(0, 0%, 100%);--color-background-secondary: hsl(0, 0%, 98%);--color-text: hsl(0, 0%, 20%);--color-text-secondary: hsl(0, 0%, 50%);--color-border: hsl(0, 0%, 90%)}:root.dark{--color-background: hsl(0, 0%, 15%);--color-background-secondary: hsl(0, 0%, 20%);--color-text: hsl(0, 0%, 95%);--color-text-secondary: hsl(0, 0%, 70%);--color-border: hsl(0, 0%, 30%)}*{box-sizing:border-box}html{font-size:16px;line-height:1.6}body{margin:0;padding:0;background:var(--color-background);color:var(--color-text);font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;transition:background-color .3s,color .3s}a{color:var(--color-primary);text-decoration:none}a:hover{text-decoration:underline}h1,h2,h3,h4,h5,h6{font-weight:600;line-height:1.4}h1{font-size:2rem}h2{font-size:1.5rem}h3{font-size:1.25rem}code{font-family:Courier New,monospace;font-size:.95em}pre{overflow-x:auto}pre code{font-size:.9em}img{max-width:100%;height:auto}html{font-family:system-ui,-apple-system,sans-serif}.layout[data-astro-cid-37fxchfa]{display:grid;grid-template-columns:300px 1fr;gap:30px;max-width:1070px;margin:0 auto;padding:30px}.layout__inner[data-astro-cid-37fxchfa]{min-height:100vh}@media (max-width: 960px){.layout[data-astro-cid-37fxchfa]{grid-template-columns:1fr;gap:20px;padding:20px}}
+</style><script type="module">function i(e,t){return{github:`https://github.com/${t}`,linkedin:`https://linkedin.com/in/${t}`,twitter:`https://twitter.com/${t}`,telegram:`https://t.me/${t}`,email:`mailto:${t}`,rss:t}[e]||t}globalThis.getContactHref=i;const n=document.getElementById("theme-toggle");function l(){const e=document.documentElement.classList.toggle("dark");localStorage.setItem("theme",e?"dark":"light")}n?.addEventListener("click",l);
+</script></head> <body data-astro-cid-37fxchfa> <div class="layout" data-astro-cid-37fxchfa> <aside class="sidebar" data-astro-cid-ssfzsv2f> <div class="sidebar__inner" data-astro-cid-ssfzsv2f> <div class="sidebar__author" data-astro-cid-ssfzsv2f> <img src="/logo.png" alt="Chase Stephens" class="sidebar__author-photo" data-astro-cid-ssfzsv2f> <h1 class="sidebar__author-title" data-astro-cid-ssfzsv2f>Chase Stephens</h1> <p class="sidebar__author-subtitle" data-astro-cid-ssfzsv2f>Where good ideas go to die ☠️</p> </div> <nav class="sidebar__nav" data-astro-cid-ssfzsv2f> <ul class="sidebar__nav-list" data-astro-cid-ssfzsv2f> <li class="sidebar__nav-item" data-astro-cid-ssfzsv2f> <a href="/" data-astro-cid-ssfzsv2f>Articles</a> </li><li class="sidebar__nav-item" data-astro-cid-ssfzsv2f> <a href="/pages/about" data-astro-cid-ssfzsv2f>About me</a> </li><li class="sidebar__nav-item" data-astro-cid-ssfzsv2f> <a href="/pages/contacts" data-astro-cid-ssfzsv2f>Contact me</a> </li> </ul> </nav> <div class="sidebar__contacts" data-astro-cid-ssfzsv2f> <a href="https://github.com/chastep" title="github" class="sidebar__contact-link" data-astro-cid-ssfzsv2f> <span class="icon" data-astro-cid-patnjmll><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.6.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></span>  </a><a href="https://linkedin.com/in/chase-stephens" title="linkedin" class="sidebar__contact-link" data-astro-cid-ssfzsv2f> <span class="icon" data-astro-cid-patnjmll><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.475-2.236-1.986-2.236-1.081 0-1.722.731-2.004 1.438-.103.25-.129.599-.129.948v5.419h-3.554s.05-8.736 0-9.646h3.554v1.348c.43-.644 1.189-1.554 2.898-1.554 2.117 0 3.704 1.381 3.704 4.352v5.5zM5.337 9.433c-1.144 0-1.915-.758-1.915-1.712 0-.956.768-1.71 1.953-1.71 1.187 0 1.914.758 1.939 1.71 0 .954-.752 1.712-1.939 1.712zm1.581 11.019H3.756V9.906h3.162v10.546zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg></span>  </a> </div> <button id="theme-toggle" class="theme-switcher" title="Toggle dark mode" aria-label="Toggle dark mode" data-astro-cid-dz5h74bc> <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" data-astro-cid-dz5h74bc> <circle cx="12" cy="12" r="5" data-astro-cid-dz5h74bc></circle> <line x1="12" y1="1" x2="12" y2="3" data-astro-cid-dz5h74bc></line> <line x1="12" y1="21" x2="12" y2="23" data-astro-cid-dz5h74bc></line> <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" data-astro-cid-dz5h74bc></line> <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" data-astro-cid-dz5h74bc></line> <line x1="1" y1="12" x2="3" y2="12" data-astro-cid-dz5h74bc></line> <line x1="21" y1="12" x2="23" y2="12" data-astro-cid-dz5h74bc></line> <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" data-astro-cid-dz5h74bc></line> <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" data-astro-cid-dz5h74bc></line> </svg> <svg class="moon" viewBox="0 0 24 24" fill="currentColor" data-astro-cid-dz5h74bc> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" data-astro-cid-dz5h74bc></path> </svg> </button>   <div class="sidebar__copyright" data-astro-cid-ssfzsv2f> <p data-astro-cid-ssfzsv2f>© All rights reserved.</p> </div> </div> </aside>   <main class="layout__inner" data-astro-cid-37fxchfa>  <article class="post" data-astro-cid-gysqo7gh> <header class="post__header" data-astro-cid-gysqo7gh> <h1 class="post__title" data-astro-cid-gysqo7gh>Welcome to the New Setup</h1> <p class="post__meta" data-astro-cid-gysqo7gh> <time datetime="2026-05-12T00:07:18.471Z" data-astro-cid-gysqo7gh> May 11, 2026 </time>  •  <span data-astro-cid-gysqo7gh>Blog</span> </p> </header> <div class="post__content" data-astro-cid-gysqo7gh> <p>I’ve completely rebuilt this blog from <strong>Gatsby to Astro</strong>. Here’s why and what changed.</p>
+<h2 id="why-the-migration">Why the Migration?</h2>
+<p>The original Gatsby setup, while powerful, had become overkill for a simple personal blog:</p>
+<ul>
+<li><strong>Massive dependency tree</strong> — 1,590+ npm packages</li>
+<li><strong>Slow builds</strong> — GraphQL, Webpack plugins, and complex config</li>
+<li><strong>Unnecessary features</strong> — PWA, service workers, analytics integration</li>
+<li><strong>Maintenance burden</strong> — Keeping 50+ Gatsby plugins up to date</li>
+</ul>
+<p>Astro solves all of this by focusing on what blogs actually need: fast builds, minimal JavaScript, and static content.</p>
+<h2 id="what-changed">What Changed</h2>
+<h3 id="removed">Removed</h3>
+<ul>
+<li>❌ All Gatsby configuration (gatsby-*.ts, 50+ plugin files)</li>
+<li>❌ GraphQL queries and complex data fetching</li>
+<li>❌ React components for everything (Astro is simpler)</li>
+<li>❌ Service workers, PWA manifest config</li>
+<li>❌ Sentry error tracking, Google Analytics integration</li>
+<li>❌ RSS feed generation</li>
+</ul>
+<h3 id="added">Added</h3>
+<ul>
+<li>✅ <strong>Astro framework</strong> — Simple, fast static site generator</li>
+<li>✅ <strong>Content Collections</strong> — Type-safe markdown management</li>
+<li>✅ <strong>Lean components</strong> — Astro components use less code than React</li>
+<li>✅ <strong>Native dark mode</strong> — localStorage + CSS custom properties</li>
+<li>✅ <strong>Simpler routing</strong> — File-based routes (pages/posts/[slug].astro)</li>
+<li>✅ <strong>Better DX</strong> — Faster dev server, instant rebuilds</li>
+</ul>
+<h3 id="kept">Kept</h3>
+<ul>
+<li>✅ All 8 posts and 2 pages (with full content preserved)</li>
+<li>✅ Same sidebar + content layout</li>
+<li>✅ Dark mode toggle</li>
+<li>✅ Categories and tags (all on one page, no pagination)</li>
+<li>✅ Syntax highlighting with PrismJS</li>
+<li>✅ GitHub Pages deployment</li>
+<li>✅ GitHub Actions CI/CD</li>
+</ul>
+<h2 id="by-the-numbers">By the Numbers</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Metric</th><th>Gatsby</th><th>Astro</th></tr></thead><tbody><tr><td>npm packages</td><td>1,590+</td><td>356</td></tr><tr><td>dependency size</td><td>~500MB</td><td>~150MB</td></tr><tr><td>build time</td><td>30-60s</td><td>&#x3C;5s</td></tr><tr><td>js sent to browser</td><td>~150KB</td><td>&#x3C;10KB</td></tr><tr><td>dev server startup</td><td>10-15s</td><td>2-3s</td></tr></tbody></table>
+<h2 id="the-new-workflow">The New Workflow</h2>
+<h3 id="create-a-post">Create a post</h3>
+<p>Instead of manually creating folders and boilerplate:</p>
+<pre class="language-bash" data-language="bash"><code is:raw="" class="language-bash">bun run new-post <span class="token string">"My Article Title"</span>
+</code></pre>
+<p>This scaffolds a new post with correct frontmatter, date, slug, and template.</p>
+<h3 id="local-development">Local development</h3>
+<pre class="language-bash" data-language="bash"><code is:raw="" class="language-bash">bun <span class="token function">install</span>
+bun run dev      <span class="token comment"># Hot-reload dev server at localhost:3000</span>
+bun run build    <span class="token comment"># Production build to dist/</span>
+bun run preview  <span class="token comment"># Test production build locally</span>
+</code></pre>
+<h3 id="deploy">Deploy</h3>
+<p>Just push to main — GitHub Actions automatically builds and deploys to Pages.</p>
+<h2 id="under-the-hood">Under the Hood</h2>
+<p>The new structure is simpler:</p>
+<pre class="language-plaintext" data-language="plaintext"><code is:raw="" class="language-plaintext">src/
+├── pages/              # Auto-routed pages
+│   ├── index.astro    # Home
+│   ├── posts/[slug].astro
+│   ├── tags/[tag].astro
+│   └── categories/[category].astro
+├── components/        # Reusable UI (Astro components)
+├── content/          # Markdown posts and pages
+└── styles/           # SCSS stylesheets
+</code></pre>
+<p><strong>No more GraphQL.</strong> Content is accessed with simple Astro APIs:</p>
+<pre class="language-typescript" data-language="typescript"><code is:raw="" class="language-typescript"><span class="token keyword">const</span> posts <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">getCollection</span><span class="token punctuation">(</span><span class="token string">'posts'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> published <span class="token operator">=</span> posts<span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span>p <span class="token operator">=></span> <span class="token operator">!</span>p<span class="token punctuation">.</span>data<span class="token punctuation">.</span>draft<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h2 id="whats-next">What’s Next?</h2>
+<p>This blog is now:</p>
+<ul>
+<li><strong>Easier to maintain</strong> — Simple architecture, fewer dependencies</li>
+<li><strong>Faster to build</strong> — Local dev is instant</li>
+<li><strong>Easier to extend</strong> — Add features without plugin complexity</li>
+<li><strong>Ready for you</strong> — Write articles with <code>npm run new-post</code></li>
+</ul>
+<p>The migration is complete, tested locally, and committed. No changes needed from you unless you want to customize further.</p>
+<p>Happy writing! ✍️</p> </div> <footer class="post__footer" data-astro-cid-gysqo7gh> <ul class="post__tags" data-astro-cid-gysqo7gh> <li key="setup" data-astro-cid-gysqo7gh> <a href="/tags/setup" data-astro-cid-gysqo7gh>#setup</a> </li><li key="astro" data-astro-cid-gysqo7gh> <a href="/tags/astro" data-astro-cid-gysqo7gh>#astro</a> </li><li key="migration" data-astro-cid-gysqo7gh> <a href="/tags/migration" data-astro-cid-gysqo7gh>#migration</a> </li> </ul> </footer> </article>  </main> </div> </body></html> 
