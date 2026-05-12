@@ -70,7 +70,7 @@ Astro solves all of this by focusing on what blogs actually need: fast builds, m
 Instead of manually creating folders and boilerplate:
 
 ```bash
-npm run new-post "My Article Title"
+bun run new-post "My Article Title"
 ```
 
 This scaffolds a new post with correct frontmatter, date, slug, and template.
@@ -78,10 +78,10 @@ This scaffolds a new post with correct frontmatter, date, slug, and template.
 ### Local development
 
 ```bash
-npm install
-npm run dev      # Hot-reload dev server at localhost:3000
-npm run build    # Production build to dist/
-npm run preview  # Test production build locally
+bun install
+bun run dev      # Hot-reload dev server at localhost:3000
+bun run build    # Production build to dist/
+bun run preview  # Test production build locally
 ```
 
 ### Deploy
