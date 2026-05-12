@@ -64,6 +64,8 @@ const pageTitle = title ? `${title} | ${config.title}` : config.title;
 
   .layout__inner {
     min-height: 100vh;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
 
   @media (max-width: 960px) {
@@ -71,6 +73,14 @@ const pageTitle = title ? `${title} | ${config.title}` : config.title;
       grid-template-columns: 1fr;
       gap: 20px;
       padding: 20px;
+      max-width: 100%;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .layout {
+      gap: 15px;
+      padding: 15px;
     }
   }
 </style>

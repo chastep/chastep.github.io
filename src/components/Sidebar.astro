@@ -9,11 +9,13 @@ const { author, menu } = config;
 
 <aside class="sidebar">
   <div class="sidebar__inner">
-    <div class="sidebar__author">
-      <img src={author.photo} alt={author.title} class="sidebar__author-photo" />
-      <h1 class="sidebar__author-title">{author.title}</h1>
-      <p class="sidebar__author-subtitle">{author.description}</p>
-    </div>
+    <a href="/" class="sidebar__author-link">
+      <div class="sidebar__author">
+        <img src={author.photo} alt={author.title} class="sidebar__author-photo" />
+        <h1 class="sidebar__author-title">{author.title}</h1>
+        <p class="sidebar__author-subtitle">{author.description}</p>
+      </div>
+    </a>
 
     <nav class="sidebar__nav">
       <ul class="sidebar__nav-list">
@@ -68,6 +70,17 @@ const { author, menu } = config;
     gap: 20px;
   }
 
+  .sidebar__author-link {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    transition: opacity 0.2s;
+  }
+
+  .sidebar__author-link:hover {
+    opacity: 0.8;
+  }
+
   .sidebar__author {
     text-align: center;
   }
@@ -89,6 +102,73 @@ const { author, menu } = config;
     margin: 8px 0 0;
     font-size: 0.9rem;
     color: var(--color-text-secondary);
+  }
+
+  @media (max-width: 960px) {
+    .sidebar__author-photo {
+      width: 70px;
+      height: 70px;
+      margin-bottom: 10px;
+    }
+
+    .sidebar__author-title {
+      font-size: 1.2rem;
+    }
+
+    .sidebar__author-subtitle {
+      font-size: 0.8rem;
+      margin: 4px 0 0;
+    }
+
+    .sidebar__nav-list {
+      gap: 6px;
+    }
+
+    .sidebar__nav-item a {
+      padding: 6px 10px;
+      font-size: 0.9rem;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .sidebar {
+      padding: 15px;
+    }
+
+    .sidebar__author-photo {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 8px;
+    }
+
+    .sidebar__author-title {
+      font-size: 1rem;
+    }
+
+    .sidebar__author-subtitle {
+      font-size: 0.75rem;
+    }
+
+    .sidebar__inner {
+      gap: 15px;
+    }
+
+    .sidebar__contacts {
+      gap: 8px;
+    }
+
+    .sidebar__contact-link {
+      width: 28px;
+      height: 28px;
+    }
+
+    .sidebar__copyright {
+      font-size: 0.75rem;
+    }
+
+    .sidebar__copyright p {
+      margin: 0;
+    }
   }
 
   .sidebar__nav-list {
