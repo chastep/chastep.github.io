@@ -1,0 +1,76 @@
+---
+import { config } from '@/config';
+import Sidebar from '@/components/Sidebar.astro';
+import '@/styles/main.scss';
+
+interface Props {
+  title?: string;
+  description?: string;
+  socialImage?: string;
+}
+
+const { title, description, socialImage } = Astro.props;
+const pageTitle = title ? `${title} | ${config.title}` : config.title;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description || config.description} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title || config.title} />
+    <meta property="og:description" content={description || config.description} />
+    <meta property="og:url" content={config.url} />
+    {socialImage && <meta property="og:image" content={socialImage} />}
+
+    <!-- Theme script (must be inline to prevent flash) -->
+    <script is:inline>
+      const isDark = localStorage.getItem('theme') === 'dark' ||
+        (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      if (isDark) {
+        document.documentElement.classList.add('dark');
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="layout">
+      <Sidebar />
+      <main class="layout__inner">
+        <slot />
+      </main>
+    </div>
+  </body>
+</html>
+
+<style>
+  :global(html) {
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+
+  .layout {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 30px;
+    max-width: 1070px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+
+  .layout__inner {
+    min-height: 100vh;
+  }
+
+  @media (max-width: 960px) {
+    .layout {
+      grid-template-columns: 1fr;
+      gap: 20px;
+      padding: 20px;
+    }
+  }
+</style>

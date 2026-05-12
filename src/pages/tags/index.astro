@@ -1,0 +1,52 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getPublishedPosts, getAllTags, groupByTag } from '@/utils/helpers';
+
+const posts = await getCollection('posts');
+const publishedPosts = getPublishedPosts(posts);
+const tags = getAllTags(publishedPosts);
+const byTag = groupByTag(publishedPosts);
+---
+
+<BaseLayout title="Tags">
+  <div class="archive">
+    <h1>Tags</h1>
+    <ul class="archive__list">
+      {tags.map((tag) => (
+        <li>
+          <a href={`/tags/${tag}`}>
+            #{tag} <span class="archive__count">({byTag[tag].length})</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>
+
+<style>
+  .archive__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .archive__list li {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--color-background);
+  }
+
+  .archive__list a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .archive__list a:hover {
+    text-decoration: underline;
+  }
+
+  .archive__count {
+    color: var(--color-text-secondary);
+    font-size: 0.9rem;
+  }
+</style>

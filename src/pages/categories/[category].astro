@@ -1,0 +1,33 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Feed from '@/components/Feed.astro';
+import { getPublishedPosts, getAllCategories, groupByCategory, sortPostsByDate } from '@/utils/helpers';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  const publishedPosts = getPublishedPosts(posts);
+  const categories = getAllCategories(publishedPosts);
+  
+  return categories.map((cat) => ({
+    params: { category: cat.toLowerCase().replace(/\s+/g, '-') },
+    props: { category: cat, posts: publishedPosts },
+  }));
+}
+
+interface Props {
+  category: string;
+  posts: any[];
+}
+
+const { category, posts } = Astro.props;
+const categoryPosts = posts.filter(p => p.data.category === category);
+const sorted = sortPostsByDate(categoryPosts);
+---
+
+<BaseLayout title={`Category: ${category}`}>
+  <div>
+    <h1>{category}</h1>
+    <Feed posts={sorted} />
+  </div>
+</BaseLayout>

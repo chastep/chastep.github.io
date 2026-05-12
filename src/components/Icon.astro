@@ -1,0 +1,26 @@
+---
+import { getIcon } from '@/constants/icons';
+
+interface Props {
+  name: string;
+  title?: string;
+}
+
+const { name, title } = Astro.props;
+const svg = getIcon(name);
+---
+
+<span class="icon" title={title} set:html={svg} />
+
+<style>
+  .icon {
+    display: inline-flex;
+    width: 1em;
+    height: 1em;
+  }
+
+  :global(.icon svg) {
+    width: 100%;
+    height: 100%;
+  }
+</style>

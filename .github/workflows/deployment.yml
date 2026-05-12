@@ -2,54 +2,47 @@ name: Deployment
 
 on:
   workflow_run:
-    workflows: ["Release"] # Name of your release workflow
+    workflows: ["Release"]
     types:
       - completed
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
-  deploy:
-    permissions:
-      contents: write
-      pages: write
-      id-token: write
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
-    name: Deployment
+  build:
     runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
-        with:
-          bun-version: latest
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "22.14.0"
+          node-version: "22.22.0"
+          cache: 'npm'
 
-      - name: Cache Bun dependencies
-        id: bun-cache
-        uses: actions/cache@v4
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site
+        run: npm run build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: |
-            ~/.bun
-            node_modules
-          key: bun-${{ runner.os }}-${{ hashFiles('bun.lockb') }}
-          restore-keys: |
-            bun-${{ runner.os }}-
+          path: ./dist
 
-      - name: Install modules
-        if: steps.bun-cache.outputs.cache-hit != 'true'
-        run: bun install --frozen-lockfile
-
-      - name: Ensure gh-pages is installed
-        run: bun add gh-pages --dev
-
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy to GitHub Pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: bun run deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

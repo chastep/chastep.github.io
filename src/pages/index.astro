@@ -1,0 +1,18 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Feed from '@/components/Feed.astro';
+import { getPublishedPosts, sortPostsByDate } from '@/utils/helpers';
+import { config } from '@/config';
+
+const posts = await getCollection('posts');
+const publishedPosts = getPublishedPosts(posts);
+const sortedPosts = sortPostsByDate(publishedPosts);
+---
+
+<BaseLayout
+  title={config.title}
+  description={config.description}
+>
+  <Feed posts={sortedPosts} />
+</BaseLayout>

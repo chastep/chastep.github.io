@@ -1,0 +1,156 @@
+---
+import { config } from '@/config';
+import Icon from '@/components/Icon.astro';
+import ThemeSwitcher from '@/components/ThemeSwitcher.astro';
+import { getContactHref } from '@/utils/get-contact-href';
+
+const { author, menu } = config;
+---
+
+<aside class="sidebar">
+  <div class="sidebar__inner">
+    <div class="sidebar__author">
+      <img src={author.photo} alt={author.title} class="sidebar__author-photo" />
+      <h1 class="sidebar__author-title">{author.title}</h1>
+      <p class="sidebar__author-subtitle">{author.description}</p>
+    </div>
+
+    <nav class="sidebar__nav">
+      <ul class="sidebar__nav-list">
+        {menu.map((item) => (
+          <li class="sidebar__nav-item">
+            <a href={item.url}>{item.title}</a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+
+    <div class="sidebar__contacts">
+      {author.contacts.map((contact) => (
+        <a
+          href={getContactHref(contact.name, contact.contact)}
+          title={contact.name}
+          class="sidebar__contact-link"
+        >
+          <Icon name={contact.name} />
+        </a>
+      ))}
+    </div>
+
+    <ThemeSwitcher />
+
+    <div class="sidebar__copyright">
+      <p>{config.copyright}</p>
+    </div>
+  </div>
+</aside>
+
+<style module>
+  .sidebar {
+    position: sticky;
+    top: 30px;
+    height: fit-content;
+    padding: 20px;
+    background: var(--color-background-secondary);
+    border-radius: 8px;
+  }
+
+  .sidebar__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .sidebar__author {
+    text-align: center;
+  }
+
+  .sidebar__author-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+
+  .sidebar__author-title {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  .sidebar__author-subtitle {
+    margin: 8px 0 0;
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+  }
+
+  .sidebar__nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .sidebar__nav-item a {
+    color: inherit;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+  }
+
+  .sidebar__nav-item a:hover {
+    background-color: var(--color-background);
+  }
+
+  .sidebar__contacts {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .sidebar__contact-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    color: inherit;
+    text-decoration: none;
+    transition: background-color 0.2s;
+  }
+
+  .sidebar__contact-link:hover {
+    background-color: var(--color-background);
+  }
+
+  .sidebar__copyright {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+    text-align: center;
+  }
+
+  .sidebar__copyright p {
+    margin: 0;
+  }
+</style>
+
+<script>
+  function getContactHref(name: string, contact: string): string {
+    const links: Record<string, string> = {
+      github: `https://github.com/${contact}`,
+      linkedin: `https://linkedin.com/in/${contact}`,
+      twitter: `https://twitter.com/${contact}`,
+      telegram: `https://t.me/${contact}`,
+      email: `mailto:${contact}`,
+      rss: contact,
+    };
+    return links[name] || contact;
+  }
+
+  // Make function globally available for use in template
+  (globalThis as any).getContactHref = getContactHref;
+</script>

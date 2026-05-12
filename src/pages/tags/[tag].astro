@@ -1,0 +1,33 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Feed from '@/components/Feed.astro';
+import { getPublishedPosts, getAllTags, groupByTag, sortPostsByDate } from '@/utils/helpers';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  const publishedPosts = getPublishedPosts(posts);
+  const tags = getAllTags(publishedPosts);
+  
+  return tags.map((tag) => ({
+    params: { tag },
+    props: { tag, posts: publishedPosts },
+  }));
+}
+
+interface Props {
+  tag: string;
+  posts: any[];
+}
+
+const { tag, posts } = Astro.props;
+const tagPosts = posts.filter(p => p.data.tags?.includes(tag));
+const sorted = sortPostsByDate(tagPosts);
+---
+
+<BaseLayout title={`Tag: ${tag}`}>
+  <div>
+    <h1>#{tag}</h1>
+    <Feed posts={sorted} />
+  </div>
+</BaseLayout>

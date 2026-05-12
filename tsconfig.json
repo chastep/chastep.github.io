@@ -1,34 +1,17 @@
 {
+  "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "baseUrl": ".",
-    "jsx": "react",
-    "target": "esnext",
-    "module": "esnext",
-    "lib": ["esnext", "dom", "dom.iterable"],
+    "target": "ES2020",
+    "lib": ["ES2020"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "astro",
     "moduleResolution": "bundler",
     "paths": {
-      "@/hooks/*": ["./src/hooks/*"],
-      "@/types/*": ["./src/types/*"],
-      "@/utils/*": ["./src/utils/*"],
-      "@/internal/*": ["./internal/*"],
-      "@/constants/*": ["./src/constants/*"],
-      "@/components/*": ["./src/components/*"],
-      "@/mocks": ["./internal/testing/mocks"]
+      "@/*": ["src/*"]
     },
-    "strict": true,
-    "allowJs": false,
-    "skipLibCheck": true,
     "noUnusedLocals": true,
-    "esModuleInterop": true,
-    "strictNullChecks": true,
-    "resolveJsonModule": true,
-    "noImplicitReturns": true,
     "noUnusedParameters": true,
-    "verbatimModuleSyntax": true,
-    "noFallthroughCasesInSwitch": true,
-    "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true
-  },
-  "exclude": ["node_modules"],
-  "include": ["**/*.ts", "**/*.tsx"]
+    "noImplicitReturns": true,
+    "allowSyntheticDefaultImports": true
+  }
 }
