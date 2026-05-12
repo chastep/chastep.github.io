@@ -69,3 +69,46 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  background: var(--color-background-secondary);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background: var(--color-primary);
+  color: var(--color-background);
+  font-weight: 600;
+}
+
+th {
+  padding: 12px 16px;
+  text-align: left;
+}
+
+td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+tbody tr:hover {
+  background: var(--color-background);
+}
+
+@media (max-width: 640px) {
+  table {
+    font-size: 0.9em;
+  }
+
+  th, td {
+    padding: 8px 12px;
+  }
+}

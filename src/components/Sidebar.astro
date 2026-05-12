@@ -55,6 +55,13 @@ const { author, menu } = config;
     border-radius: 8px;
   }
 
+  @media (max-width: 960px) {
+    .sidebar {
+      position: static;
+      top: auto;
+    }
+  }
+
   .sidebar__inner {
     display: flex;
     flex-direction: column;
