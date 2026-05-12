@@ -1,12 +1,11 @@
 import { defineConfig } from 'astro/config';
-import sitemap from '@astrojs/sitemap';
 import path from 'path';
 
 export default defineConfig({
   site: 'https://thethoughtdungeon.com',
   base: '/',
   output: 'static',
-  integrations: [sitemap()],
+  integrations: [],
   markdown: {
     syntaxHighlight: 'prism',
   },
