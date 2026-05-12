@@ -3,7 +3,7 @@
   "url": "https://thethoughtdungeon.com/",
   "description": "Chase Stephens' personal blog where he shares insights, thoughts, and experiences.",
   "copyright": "© All rights reserved.",
-  "googleAnalyticsId": "foobar",
+  "googleAnalyticsId": "",
   "pathPrefix": "/",
   "feedLimit": 4,
   "menu": [

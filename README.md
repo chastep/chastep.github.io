@@ -1,57 +1,91 @@
-# Personal Blog
+# Chase Stephens' Blog
 
-This is just my personal blog. I host it through [github pages]() and [gatsby](). I used [this amazing gatsby starter](https://github.com/alxshelepenok/lumen). To get the ball rolling. Big shout out to [Alexander Shelepenok](https://github.com/alxshelepenok), thank you very much.
+A modern, fast, and minimal blog built with [Gatsby](https://www.gatsbyjs.com/) and [React](https://react.dev/), hosted on [GitHub Pages](https://pages.github.com/).
 
-## Manual Deploy
+**Live:** [thethoughtdungeon.com](https://thethoughtdungeon.com/)
 
-- use github pages command: `bun run deploy`
+## ✨ Features
 
-#################################3
+- ⚡ Fast static site generation with Gatsby
+- 📱 Mobile-first responsive design
+- 🎨 Dark mode support
+- 📰 RSS feed generation
+- 📊 Analytics integration (Sentry + Google Analytics)
+- 🔍 SEO optimized with sitemaps
+- 🧪 Unit tests with Bun test runner
+- 🤖 Automated deployments via GitHub Actions
 
-# lumen
+## 🚀 Quick Start
 
-A constantly evolving and thoughtful architecture for creating static blogs.
+### Local Development
 
-## Features
+```bash
+# Install dependencies
+bun install
 
-- Mobile first approach in development.
-- Support for Sentry error tracking.
-- Support for categories and tags.
+# Start dev server (with hot-reload)
+bun start
 
-## Quick Start
-
+# Open http://localhost:8000
 ```
-$ bun install
-$ bun run start
+
+### Create a New Post
+
+```bash
+bun run new-post "My Amazing Article Title"
 ```
 
-## Sponsors
+This creates a new article with the correct structure and frontmatter.
 
-Special thanks to our sponsors and partners for supporting the project.
+### Build & Deploy
 
-| <a href="https://www.browserstack.com" target="_blank"><img width="250" src="https://gist.githubusercontent.com/alxshelepenok/94cbc6dc4a2cb8167ee188ddab33893a/raw/f869c9a67db7bfd5440a49178195efe811d8f7d8/browserstack.svg"></a> | <a href="https://sentry.io" target="_blank"><img width="250" src="https://gist.githubusercontent.com/alxshelepenok/1a74dbe123b2f7ad538f41c94e2da0a2/raw/aaeb3b38ef0873bae1f23f3605696b4e65362e67/sentry.svg"></a> |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+```bash
+# Build for production
+bun run build
 
-## License
+# Test production build locally
+bun run serve
 
-The MIT License (MIT)
+# Deploy to GitHub Pages
+bun run deploy
+```
 
-Copyright (c) 2016-2025 Alexander Shelepenok
+## 📚 Documentation
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+- **[SETUP.md](./SETUP.md)** — Detailed setup, configuration, and deployment guide
+- **[Content Guide](./SETUP.md#adding-new-articles)** — How to write and publish posts
+- **[Project Structure](./SETUP.md#project-structure)** — What's where in the codebase
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## 📋 Commands
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+| Command | Purpose |
+|---------|---------|
+| `bun start` | Dev server with hot-reload |
+| `bun run build` | Production build |
+| `bun run serve` | Test production build |
+| `bun run deploy` | Deploy to GitHub Pages |
+| `bun run new-post "Title"` | Create new article |
+| `bun test` | Run tests |
+
+## 🏗️ Stack
+
+- **Framework:** [Gatsby 5](https://www.gatsbyjs.com/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **UI:** [React 18](https://react.dev/)
+- **Styling:** [SASS](https://sass-lang.com/)
+- **Package Manager:** [Bun](https://bun.sh/)
+- **Hosting:** [GitHub Pages](https://pages.github.com/)
+- **CI/CD:** [GitHub Actions](https://github.com/features/actions)
+- **Theme:** Based on [Lumen](https://github.com/alxshelepenok/lumen) by [Alexander Shelepenok](https://github.com/alxshelepenok)
+
+## 🤝 Attribution
+
+This blog is built on the excellent [Lumen](https://github.com/alxshelepenok/lumen) theme by [Alexander Shelepenok](https://github.com/alxshelepenok). Thanks to Alexander for creating such a thoughtful and extensible starting point.
+
+## 📄 License
+
+MIT License — see [LICENSE](./LICENSE) file for details.
+
+---
+
+**Want to write? Start here:** `bun run new-post "Your Post Title"`
