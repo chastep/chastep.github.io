@@ -72,6 +72,23 @@ This was also my first time building a Claude Code plugin from scratch, and a fe
 
 **The cache is managed.** I tried manually placing files in `~/.claude/plugins/cache/` and Claude Code kept cleaning them up. The right approach is either going through the marketplace install flow or just using `~/.claude/commands/` directly.
 
+## Locking It Down with Cloudflare Access
+
+After getting the site working, the next question was: these notes are technically public. Anyone with the UUID can read them. The UUIDs are hard to guess, but that's obscurity, not security.
+
+The cleanest solution for a GitHub Pages site is Cloudflare Access — put Cloudflare in front as a reverse proxy and gate every request behind an email login. The publish pipeline doesn't change at all; `deploy-note.mjs` pushes directly to GitHub via the API and never touches the proxied domain.
+
+The setup is:
+
+1. Move your domain's nameservers to Cloudflare (free plan)
+2. Add the `notes` CNAME with the proxy enabled (orange cloud) — this is what lets Cloudflare intercept requests
+3. Set SSL/TLS to **Full** to avoid redirect loops with GitHub Pages, and enable **Always Use HTTPS**
+4. In Zero Trust → Access → Applications, create a self-hosted application for `notes.{domain}` with an allow policy scoped to your email address
+
+After that, any visitor gets redirected to a Cloudflare login page. They enter an email — if it's not on the allow list, they're denied. If it matches, a one-time PIN is emailed and the session cookie is good for 24 hours.
+
+One thing to check: Cloudflare's OTP emails land in Gmail spam fairly often. The fix is either to add Google as an OAuth provider (one-click sign-in, no email needed) or just fish it out of spam the first time and mark it as not spam.
+
 ## The Note That Published Itself
 
 This plugin's first published note is the session where we built the plugin. You can read it at [notes.thethoughtdungeon.com/2026-05-22-c13aca7d](https://notes.thethoughtdungeon.com/2026-05-22-c13aca7d) — the full summary of the session, including the decisions made along the way and the code snippets that ended up in the final implementation.
