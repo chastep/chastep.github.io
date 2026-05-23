@@ -91,6 +91,6 @@ One thing to check: Cloudflare's OTP emails land in Gmail spam fairly often. The
 
 ## The Note That Published Itself
 
-This plugin's first published note is the session where we built the plugin. You can read it at [notes.thethoughtdungeon.com/2026-05-22-c13aca7d](https://notes.thethoughtdungeon.com/2026-05-22-c13aca7d) — the full summary of the session, including the decisions made along the way and the code snippets that ended up in the final implementation.
+This plugin's first published note is the session where we designed the AI agency concept that the plugin was built to capture. You can read it at [notes.thethoughtdungeon.com/2026-05-22-b8ddb520](https://notes.thethoughtdungeon.com/2026-05-22-b8ddb520) — the full summary of the session, including the decisions made along the way and a "copy for Claude" button to pick up the work in a new session.
 
 The plugin is open source at [github.com/chastep/claude-session-notes](https://github.com/chastep/claude-session-notes).
